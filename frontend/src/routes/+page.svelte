@@ -32,6 +32,18 @@
             <p>Branches</p>
         </div>
     </section>
+    <section id="s3" class="redir">
+
+    </section>
+    <section id="s4" class="redir">
+
+    </section>
+    <section id="s5" class="redir">
+
+    </section>
+    <section id="s6" class="redir">
+
+    </section>
 </main>
 
 
@@ -56,6 +68,9 @@
             opacity: 1;
         }
     }
+    #s1 {
+        height: 100vh;
+    }
     #s1 > div {
         padding-top: calc(50vh - calc(2 * 96px));
         padding-left: 32px;
@@ -73,15 +88,9 @@
         isolation: isolate;
         overflow: hidden;
     }
-    #s2::before {
-        content: '';
-        z-index: -1;
-        position: absolute;
-        inset: 0;
-        background-color: #fff;
-        opacity: 0.65;
-    }
     #s2 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
         display: flex;
         place-items: center;
         justify-content: space-around;
@@ -107,9 +116,17 @@
     #s2 > div > p {
         font-size: 18px;
     }
-    section {
-        height: 100vh;
+    #s3 {
+        position: relative;
     }
+    /* #s3::before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        inset: 0;
+        background-color: #fff;
+        opacity: 0.65;
+    } */
 </style>
 
 <script>
