@@ -13,7 +13,7 @@
 </script>
 
 <nav>
-    <img src="/src/assets/logobanner.png" alt="logobanner">
+    <img src="/src/assets/logo_banner.png" alt="logo_banner">
     <div class="flex-spacer"></div>
     <a href="/about">About</a>
     <a href="/resources">Resources</a>
@@ -34,8 +34,12 @@
     }
     nav > img {
         max-height: 50px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
-    nav > * {
+    nav > a {
         position: relative;
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
