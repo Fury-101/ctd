@@ -1,0 +1,6 @@
+--2022-10-13 19:31:53--  https://media.discordapp.net/attachments/942176584348094465/1026358913894985788/Untitled_design_37-PhotoRoom.png?width=453
+Resolving media.discordapp.net (media.discordapp.net)... 162.159.128.232, 162.159.134.232, 162.159.130.232, ...
+Connecting to media.discordapp.net (media.discordapp.net)|162.159.128.232|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2022-10-13 19:31:53 ERROR 400: Bad Request.
+
